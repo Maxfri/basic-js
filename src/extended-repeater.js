@@ -12,7 +12,7 @@ module.exports = function repeater(str, options) {
         separator = '+'
     }
     if (typeof additionSeparator === 'undefined') {
-        additionSeparator = '';
+        additionSeparator = '|';
     }
     if (typeof addition === 'undefined') {
         addition = '';
